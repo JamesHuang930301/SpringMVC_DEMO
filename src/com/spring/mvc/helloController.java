@@ -6,10 +6,10 @@ import org.springframework.web.servlet.ModelAndView;
 
 
 @Controller
-@RequestMapping("/jameshuang")
+@RequestMapping("/2019")
 public class helloController {
-    @RequestMapping(value = "/welcome")
-    public ModelAndView hello(){
-        return new ModelAndView("welcome");
+    @RequestMapping(value = "/main")
+    public ModelAndView main(){
+        return new ModelAndView("main");
     }
 }
